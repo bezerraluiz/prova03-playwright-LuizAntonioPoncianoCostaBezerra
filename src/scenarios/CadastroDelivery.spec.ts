@@ -3,6 +3,7 @@ import { join } from 'path';
 import { TheConfig } from 'sicolo';
 import CadastroPage from '../support/pages/CadastroPage';
 
+// teste
 test.describe('Cadastro de usuário para delivery', () => {
   const CONFIG = join(__dirname, '../support/fixtures/config.yml');
   let cadastroPage: CadastroPage;
